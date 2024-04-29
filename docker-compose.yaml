@@ -12,8 +12,7 @@ services:
       - "8080:8080"
     depends_on:
       - cats_db
-    environment:
-      SPRING_DATASOURCE_URL: 'jdbc:postgresql://cats_db:5432/java'
+   
 
 
   cats_db:
