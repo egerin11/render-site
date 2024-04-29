@@ -18,12 +18,12 @@ services:
 
   cats_db:
     image: postgres
-    container_name: cats_db_java
+    container_name: database_acxu
     restart: always
     environment:
-      - POSTGRES_DB=java
-      - POSTGRES_USER=cats
-      - POSTGRES_PASSWORD=egerin
+      - POSTGRES_DB=database_acxu
+      - POSTGRES_USER=database_acxu_user
+      - POSTGRES_PASSWORD=34BTU4gWbtKOdRJxOkWYNVRWUXIWl2zj
     volumes:
       - pg_cats:/var/lib/postgresql/data
     ports:
